@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #b72f7b, #4b3f6d);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block{
+    width: 600px;
+    height: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 10px;
+
+    color: #4b3f6d;
+}
+
+.main-block h1{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.main-block .uah{
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-block .uah div{
+    width: 142px;
+    border: #4b3f6d 2px solid;
+    border-radius: 5px;
+}
+
+.main-block .uah div input{
+    width: 80px;
+    border: none;
+}
+
+.main-block .uah div select{
+    width: 50px;
+    height: 22px;
+}
+
+.main-block .uah img{
+    height: 50px;
+    cursor: pointer;
+}
+
+.main-block .uah p{
+    width: 115px;
+    text-align: center;
+}
+
+.main-block button{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4b3f6d;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+.content p{
+    text-align: center;
+}
+
+#uah-value{
+    width: 200px;
+    padding: 5px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+#other-value{
+    width: 200px;
+    padding: 5px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.hidden{
+    display: none !important;
+}
